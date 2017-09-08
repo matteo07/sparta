@@ -48,6 +48,7 @@ form{
   padding: 0 20px;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
 
 .button-primary{
@@ -138,10 +139,31 @@ input {
   display: none;
 }
 
+#logo:hover {
+  background-color: rgb(251, 246, 234);
+}
+
 #logo img {
   padding: 20px;
 }
 
 label{
   margin-top: 10px;
+  text-align: left;
+}
+
+#load{
+  margin-top: 100px;
+}
+
+ul.ui-menu {
+  background-color: white;
+  list-style: none;
+  max-width: 490px;
+  max-height: 510px;
+  overflow-y: hidden;
+}
+
+ul.ui-menu li {
+  margin-left: 8px;
 }
