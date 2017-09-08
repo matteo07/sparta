@@ -1,0 +1,147 @@
+@font-face{
+  font-family:Diogenes; 
+  src:url('diogenes.ttf') format('truetype')}
+
+body{
+  height: 100vh;
+  background-image: url('http://www.levelfiveassociates.com/wp-content/uploads/spartans-what-is-your-profession.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(251, 246, 234, .8);
+  font-family: Helvetica, sans-serif;
+}
+
+h1{
+  background-color: rgb(251, 246, 234);
+  display: inline-block;
+  margin: 20px;
+  font-family: Diogenes;
+}
+
+.row{
+  padding-top: 35px;
+  background-color: rgba(251, 246, 234,.8);
+  width: 100%;
+  height: auto;
+  margin:0;
+  margin-top: calc(50vh - 60px);
+  transform: translateY(-50%);
+  height: 319px;
+  display: none;
+}
+
+.column{
+  margin:0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.result{
+  display: inline-block;
+  margin: 20px;
+  margin-top: 0;
+}
+
+form{
+  max-width: 490px;
+  padding: 0 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button-primary{
+  color: #FFF;
+  background-color: #84251F;
+  border-color: #84251F;
+  margin-left: auto;
+  margin-right: auto;
+  display: inherit;
+  margin-top: 20px;
+}
+.button-primary:hover{
+  color: #FFF;
+  background-color: #8E3430;
+  border-color: #8E3430;
+}
+
+/** */
+.container {
+  width: 400px;
+  height: 200px;
+  position: relative;
+  margin: auto;
+  font-family: 'Share Tech', sans-serif;
+  color: #444;
+}
+
+#percent, #percent2, #svg, #svg2 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#percent, #percent2 {
+  line-height: 20px;
+  height: 20px;
+  width 100%;
+  top: 105px;
+  font-size: 43px;
+  text-align: center;
+  color: ##84251F;
+  opacity: 0.8
+}
+
+p, .btn {
+  position: relative;
+  left: 220px;
+  width: 200px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 24px;
+  top: 30px;
+}
+
+.btn {
+  text-align: center;
+  background: #5fc2af;
+  color: #fff;
+  width: 120px;
+  height: 37px;
+  line-height: 37px;
+  cursor: pointer;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #eee;
+  width: 30px;
+  font-family: helvetica;
+  font-size: 24px;
+  text-transform: capitalise;
+  font-family: 'Share Tech', sans-serif;
+  background: transparent;
+
+}
+
+.title{
+    max-width: 200px;
+    height: 40px;
+}
+
+#logo{
+  background-color: rgba(251, 246, 234, .6);
+  display: inline-block;
+  display: none;
+}
+
+#logo img {
+  padding: 20px;
+}
+
+label{
+  margin-top: 10px;
+}
